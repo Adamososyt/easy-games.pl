@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        #header {
+            background-color: #3399ff;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        #container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        #marioBtn {
+            background-color: red;
+            color: white;
+        }
+
+        #jumpSimBtn {
+            background-color: #66ccff;
+            color: white;
+        }
+
+        #pixelPaintBtn {
+            background-color: yellow;
+            color: black;
+        }
+
+        #pingPongBtn {
+            background-color: #00cc00;
+            color: white;
+        }
+
+        #cpsTestBtn {
+            background-color: #ff9900;
+            color: white;
+        }
+        
+        #dotrunBtn {
+            background-color: #black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div id="header">
+    Easy Games.pl
+</div>
+
+<div id="container">
+    <a href="https://adamososyt.github.io/Mario/t%20rex%20jump.html"><button id="marioBtn" onclick="goToGame('mario.html')">Mario</button></a>
+    <a href="https://adamososyt.github.io/cloud/p.html"><button id="jumpSimBtn" onclick="goToGame('jumpsim.html')">Jump Sim</button></a>
+    <a href="https://adamososyt.github.io/paint/paint.html"><button id="pixelPaintBtn" onclick="goToGame('pixelpaint.html')">Pixel Paint</button></a>
+    <a href="https://adamososyt.github.io/pingpong/pingpong.html"><button id="pingPongBtn" onclick="goToGame('pingpong.html')">Ping Pong</button></a>
+    <a href="https://adamososyt.github.io/cps.test/gra%20.html"><button id="cpsTestBtn" onclick="goToGame('cpstest.html')">CPS Test</button></a>
+<a href="https://adamososyt.github.io/dot-run/mario.html"><button id"dot run"onclick="gotogame('dotrun.html')">dot run</button id"dot run"></a>
+
+</div>
+
+<script>
+    function goToGame(gameName) {
+        // Przekierowanie do wybranej gry
+        window.location.href = gameName;
+    }
+</script>
+<h9>made by Adamosos</h9>
+</body>
+</html>
+
